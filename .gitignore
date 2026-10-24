@@ -1,0 +1,23 @@
+# Big binaries live in GitHub Releases, not in git.
+*.msixbundle
+*.msix
+*.appx
+*.appxbundle
+*.appxsym
+*.msixupload
+*.appxupload
+*_x64_Setup.exe
+*.zip
+
+# Build outputs (regeneratable)
+SetupBuild/payload/app.cer
+SetupBuild/payload/bundle.msixbundle
+SetupBuild/payload/bundle.msixbundle.gz
+SetupBuild/obj/
+SetupBuild/bin/
+
+# Local artifacts
+Thumbs.db
+.DS_Store
+*.log
+*.pdb
